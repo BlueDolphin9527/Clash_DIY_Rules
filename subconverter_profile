@@ -10,20 +10,6 @@
 ;增强中国IP段：支持
 ;增强国外GFW：支持
 
-dns:
-  enabled: true
-  nameserver:
-  - 223.5.5.5
-  - 119.29.29.29
-  fallback:
-  - 8.8.8.8
-  - 1.1.1.1
-  enhanced-mode: fake-ip
-  fake-ip-range: 28.0.0.1/8
-  fake-ip-filter:
-  - '*'
-  - +.lan
-
 ;设置规则标志位
 ruleset=🐬 BlueDolphin,https://raw.githubusercontent.com/BlueDolphin9527/Clash_DIY_Rules/main/BlueDolphin_ClashDIYRules
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
@@ -95,6 +81,7 @@ custom_proxy_group=🇰🇷 韩国节点`url-test`(KR|Korea|KOR|首尔|韩|韓)`
 custom_proxy_group=🎥 奈飞节点`select`(NF|奈飞|解锁|Netflix|NETFLIX|Media)
 ;设置分组标志位
 
+clash_rule_base=https://raw.githubusercontent.com/BlueDolphin9527/Clash_DIY_Rules/main/clash_rule_base
 enable_rule_generator=true
 overwrite_original_rules=true
 
