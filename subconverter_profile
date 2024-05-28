@@ -1,4 +1,5 @@
 [custom]
+;根据ACL4SSR_Online_Full修改https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini
 ;不要随意改变关键字，否则会导致出错
 ;acl4SSR规则
 
