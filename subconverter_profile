@@ -24,7 +24,7 @@ dns:
   - +.lan
 
 ;设置规则标志位
-ruleset=🐬 BlueDolphin,我的规则
+ruleset=🐬 BlueDolphin,https://raw.githubusercontent.com/BlueDolphin9527/Clash_DIY_Rules/main/BlueDolphin_ClashDIYRules
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
