@@ -1,0 +1,8 @@
+# 内容：BlueDolphin的Clash自定义规则
+
+#Evernote
+PROCESS-NAME,Evernote.exe
+PROCESS-NAME,com.evernote
+DOMAIN-SUFFIX,evernote.com
+
+DOMAIN-SUFFIX,emby.wtf
