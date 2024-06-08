@@ -1,1 +1,5 @@
+# 内容：BlueDolphin的Clash直连规则，走🎯 全球直连分组
+#DOMAIN-SUFFIX,zbook.lol适配https://zbook.lol
 
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN-SUFFIX,umeng.com
