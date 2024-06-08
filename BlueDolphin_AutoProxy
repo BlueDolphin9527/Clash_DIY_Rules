@@ -1,9 +1,10 @@
-# 内容：BlueDolphin的Clash自定义规则
+# 内容：BlueDolphin的Clash自动代理规则，走🌍 国外媒体分组
 #DOMAIN-SUFFIX,zbook.lol适配https://zbook.lol
 
 #Evernote
-PROCESS-NAME,Evernote.exe
-PROCESS-NAME,com.evernote
+#有时Evernote会访问剪藏里的网站，如果全部走代理的话，不太好
+#PROCESS-NAME,Evernote.exe
+#PROCESS-NAME,com.evernote
 DOMAIN-SUFFIX,evernote.com
 
 DOMAIN-SUFFIX,emby.wtf
