@@ -7,7 +7,7 @@ external-controller: :9090
 dns:
   enabled: true
   nameserver:
-  - 223.6.6.6
+  - 223.5.5.5
   - 119.29.29.29
   fallback:
   - 8.8.8.8
