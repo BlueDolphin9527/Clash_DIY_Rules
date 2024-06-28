@@ -1,20 +1,15 @@
 [custom]
-;根据ACL4SSR_Online_Full修改https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini
+;根据ACL4SSR_Online_Full修改https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full.ini,添加了ACL4SSR_Online_AdblockPlus.ini的去广告内容
 ;不要随意改变关键字，否则会导致出错
-;acl4SSR规则
-
-;去广告：支持
-;自动测速：支持
-;微软分流：支持
-;苹果分流：支持
-;增强中国IP段：支持
-;增强国外GFW：支持
 
 ;设置规则标志位
 ruleset=🌍 国外媒体,https://raw.githubusercontent.com/BlueDolphin9527/Clash_DIY_Rules/main/BlueDolphin_AutoProxy
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/BlueDolphin9527/Clash_DIY_Rules/main/BlueDolphin_Direct
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/BlueDolphin9527/Clash_DIY_Rules/main/BlueDolphin_Reject
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
