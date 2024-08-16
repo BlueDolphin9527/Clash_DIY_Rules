@@ -13,8 +13,6 @@ dns:
   - 8.8.8.8
   - 1.1.1.1
   enhanced-mode: fake-ip
-  fake-ip-range: 28.0.0.1/8
-  fake-ip-filter:
-#  - '+.coolapk.com'
-  - '*'
-  - '+.lan'
+  fake-ip-range: 198.18.0.1/16
+#  fake-ip-filter:
+#  - '+.lan'
