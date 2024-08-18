@@ -21,12 +21,12 @@ dns:
     "geosite:cn":"223.5.5.5,119.29.29.29"
     'geosite:geolocation-!cn': [tls://8.8.8.8, tls://1.1.1.1]
 
-tun:
-  enable: true
-  stack: mixed
-  dns-hijack:
-    - "any:53"
-    - "tcp://any:53"
-  auto-route: true
-  auto-redirect: true
-  auto-detect-interface: true
+#tun:
+#  enable: true
+#  stack: mixed
+#  dns-hijack:
+#    - "any:53"
+#    - "tcp://any:53"
+#  auto-route: true
+#  auto-redirect: true
+#  auto-detect-interface: true
