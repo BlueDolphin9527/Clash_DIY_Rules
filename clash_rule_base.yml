@@ -10,8 +10,11 @@ dns:
   - 223.5.5.5
   - 119.29.29.29
   fallback:
-  - 8.8.8.8
-  - 1.1.1.1
+  - tls://8.8.8.8
+  - tls://1.1.1.1
+  nameserver-policy:
+    "geosite:cn,private":"223.5.5.5,119.29.29.29"
+    'geosite:geolocation-!cn': [tls://8.8.8.8, tls://1.1.1.1]
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
 #  fake-ip-filter:
